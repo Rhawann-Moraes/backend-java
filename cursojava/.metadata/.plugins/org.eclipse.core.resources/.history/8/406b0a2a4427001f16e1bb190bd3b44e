@@ -1,0 +1,28 @@
+package br.com.logica;
+
+public class ManipulandoStrings {
+	public static void main(String[] args) {
+		String original = "abc ADf aJo ala ";
+		String s1 = original.toLowerCase();
+		String s2 = original.toUpperCase();
+		String s3 = original.trim();
+		String s4 = original.substring(2);
+		String s5 = original.substring(4, 7);
+		String s6 = original.replace('a', 'Z');
+		String s7 = original.replace("abc","JJ");
+		System.out.println("Original: -" + original + "-");
+		System.out.println("Manipulada com LowerCase: -" + s1 + "-");
+		System.out.println("Original: -" + original + "-");
+		System.out.println("Manipulada com UpperCase: -" + s2 + "-");
+		System.out.println("Original: -" + original + "-");
+		System.out.println("Manipulada com Trim: -" + s3 + "-");
+		System.out.println("Original: -" + original + "-");
+		System.out.println("Manipulada com substring: -" + s4 + "-");
+		System.out.println("Original: -" + original + "-");
+		System.out.println("Manipulada com Trim: -" + s5 + "-");
+		System.out.println("Original: -" + original + "-");
+		System.out.println("Manipulada com replace: -" + s6 + "-");
+		System.out.println("Original: -" + original + "-");
+		System.out.println("Manipulada com replace para string: -" + s7 + "-");
+	}
+}

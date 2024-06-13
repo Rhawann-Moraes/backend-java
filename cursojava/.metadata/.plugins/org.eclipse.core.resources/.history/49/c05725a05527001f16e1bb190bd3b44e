@@ -1,0 +1,9 @@
+package br.com.logica;
+
+public class StringData {
+	public static void main(String[] args){
+		String nome = "Rhawann";
+		System.out.println(nome.toLowerCase());
+		
+	}
+}

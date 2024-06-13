@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author rhawa
+ *
+ */
+module logica {
+}

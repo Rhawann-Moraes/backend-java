@@ -1,0 +1,20 @@
+package br.com.logica;
+
+import java.time.LocalDate;
+
+public class StringData {
+	public static void main(String[] args){
+		/*String nome = "Rhawann";
+		System.out.println(nome.toLowerCase());
+		System.out.println(nome.toUpperCase());
+		System.out.println(nome.length());
+		
+		String nome2 = "rhawann";
+		System.out.println(nome.equalsIgnoreCase(nome2));*/
+		
+		//Olá, {NOME}. Hoje é (dia-da-semana}, BOM DIA.
+		//ISO 8601 - representa o padrão de data e hora para o mundo inteiro
+		// O java representa esse padrão através do LocalDate
+		LocalDate hoje = LocalDate.now();
+	}
+}
