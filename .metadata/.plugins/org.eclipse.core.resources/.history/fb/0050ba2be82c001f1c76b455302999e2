@@ -1,0 +1,31 @@
+package br.com.logica;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+public class AreaTriangulo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double a, b, c, area, altura;
+		System.out.println("Entre com os valores dos lados do triângulo: ");
+		
+		a = sc.nextDouble();
+		b = sc.nextDouble();
+		c = sc.nextDouble();
+		
+		altura = (a + b + c)/2;
+		
+		area = Math.sqrt(altura*(altura - a)(altura - b)(altura - c));
+		System.out.println("A medida dos lados do triangulo são: lado a:  " +  a + "lado b:  " + b
+				+ "lado c: " + c);
+		System.out.println("A altura do triangulo é: " + altua);
+		System.out.println("A área do triangulo é: " + area);
+		
+		
+		
+		sc.close();
+	
+	}
+
+}
